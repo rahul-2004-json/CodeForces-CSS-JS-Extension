@@ -1,0 +1,14 @@
+{
+    "name": "Injector",
+    "description": "Injecting Javascript and CSS.",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches":  ["*://codeforces.com/*"],
+            "js" : ["style.js"] ,
+            "css": ["styles.css"] ,
+            "run-at" : "document-start"
+        }
+    ]
+}
