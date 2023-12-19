@@ -1,8 +1,12 @@
-body{
-    background-color: #34E89E;
+.page-content-style{
+    border: 4px solid #00FFC6;
+    border-radius: 20px !important;
+    background-color: #D1FEFF !important;
 }
-li{
-    color : pink !important ;
+.page-content-div-style{
+    background-color: #98E4FF !important;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding : 10px;
 }
 
-/* test */

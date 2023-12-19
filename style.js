@@ -1,7 +1,10 @@
-function bgclr()
-{
-    document.body.style.backgroundColor= "#04364A";
-    document.body.style.backgroundImage= "image.jpg";
-}
+document.querySelector("#pageContent").classList.add("page-content-style");
 
-bgclr() ;
+var len = document.querySelector("#pageContent").childElementCount;
+for(var i = 1; i <= len; i++) {
+    var selector = "#pageContent > div:nth-child(" + i + ")";
+    var element = document.querySelector(selector);
+
+    element.classList.add("page-content-div-style");
+    
+}
